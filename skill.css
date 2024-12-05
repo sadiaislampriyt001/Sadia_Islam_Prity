@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e1e1e; /* Header background */
+    padding: 20px;
+    text-align: center;
+    color: #f1a7a7; /* Light pink color */
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #f1a7a7; /* Soft pink for section headings */
+}
+
+p {
+    color: #e0e0e0; /* Light text color for paragraphs */
+}
+
+footer {
+    background-color: #1e1e1e; /* Footer background */
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#skills-overview {
+    margin-top: 30px;
+}
+
+.skill-detail {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.skill-detail h3 {
+    color: #f1a7a7; /* Light pink for section titles */
+}
+
+.skill-detail p {
+    color: #e0e0e0; /* Light text color for descriptions */
+}
+
+.skill-detail ul {
+    color: #e0e0e0;
+    margin-left: 20px;
+}
+
+.skill-detail a.button {
+    display: inline-block;
+    background-color: #f1a7a7;
+    color: #121212;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.skill-detail a.button:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+}
